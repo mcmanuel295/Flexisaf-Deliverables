@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class Main {
+public class Task_1 {
     public static void main(String[] args) {
         List<String> strings = Arrays.asList("hello", "world", "java", "programming","madam");
         int count = genericCount(strings, s -> s.length() > 4);
